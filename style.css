@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #111827;
+    padding: 25px;
+    border-radius: 10px;
+    width: 350px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.display {
+    background: #374151;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.display input {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    width: 100%;
+    font-size: 16px;
+}
+
+.copy-text {
+    color: #10b981;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.copy-text:hover {
+    text-decoration: underline;
+}
+
+.settings {
+    margin-top: 20px;
+}
+
+.settings label {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.length-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="range"] {
+    width: 80%;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #10b981;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #059669;
+}
